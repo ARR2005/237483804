@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description":"",
+  "description": "",
   "homepage": "https://github.com/ARR2005/237483804#readme",
   "bugs": {
     "url": "https://github.com/ARR2005/237483804/issues"
@@ -17,8 +17,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
-  },
-  "devDependencies": {
-    "tailwindcss": "^3.4.17"
   }
 }
