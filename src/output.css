@@ -530,29 +530,41 @@
   .relative {
     position: relative;
   }
-  .top-0 {
-    top: calc(var(--spacing) * 0);
+  .top-4 {
+    top: calc(var(--spacing) * 4);
   }
-  .right-0 {
-    right: calc(var(--spacing) * 0);
+  .mx-6 {
+    margin-inline: calc(var(--spacing) * 6);
   }
-  .left-0 {
-    left: calc(var(--spacing) * 0);
+  .mx-8 {
+    margin-inline: calc(var(--spacing) * 8);
   }
-  .z-1 {
-    z-index: 1;
+  .mx-10 {
+    margin-inline: calc(var(--spacing) * 10);
   }
-  .z-10 {
-    z-index: 10;
+  .mx-20 {
+    margin-inline: calc(var(--spacing) * 20);
   }
-  .z-999 {
-    z-index: 999;
+  .mx-36 {
+    margin-inline: calc(var(--spacing) * 36);
+  }
+  .mx-80 {
+    margin-inline: calc(var(--spacing) * 80);
+  }
+  .my-\[-55px\] {
+    margin-block: -55px;
+  }
+  .my-auto {
+    margin-block: auto;
   }
   .block {
     display: block;
   }
   .flex {
     display: flex;
+  }
+  .hidden {
+    display: none;
   }
   .inline-flex {
     display: inline-flex;
@@ -563,26 +575,32 @@
   .table {
     display: table;
   }
-  .h-42 {
-    height: calc(var(--spacing) * 42);
+  .h-24 {
+    height: calc(var(--spacing) * 24);
   }
-  .h-\[28px\] {
-    height: 28px;
+  .h-auto {
+    height: auto;
   }
-  .min-h-\[28px\] {
-    min-height: 28px;
+  .h-dvh {
+    height: 100dvh;
   }
-  .w-42 {
-    width: calc(var(--spacing) * 42);
+  .min-h-20 {
+    min-height: calc(var(--spacing) * 20);
   }
-  .min-w-42 {
-    min-width: calc(var(--spacing) * 42);
+  .w-\[75rem\] {
+    width: 75rem;
   }
-  .flex-grow {
-    flex-grow: 1;
+  .w-full {
+    width: 100%;
   }
-  .grow {
-    flex-grow: 1;
+  .min-w-\[73rem\] {
+    min-width: 73rem;
+  }
+  .min-w-\[142px\] {
+    min-width: 142px;
+  }
+  .min-w-\[250px\] {
+    min-width: 250px;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -590,23 +608,29 @@
   .transform {
     transform: var(--tw-rotate-x) var(--tw-rotate-y) var(--tw-rotate-z) var(--tw-skew-x) var(--tw-skew-y);
   }
+  .animate-marquee {
+    animation: marquee 100s linear infinite;
+  }
+  .animate-marquee2 {
+    animation: marquee2 100s linear infinite;
+  }
   .resize {
     resize: both;
-  }
-  .flex-row {
-    flex-direction: row;
-  }
-  .flex-wrap {
-    flex-wrap: wrap;
-  }
-  .items-center {
-    align-items: center;
   }
   .justify-between {
     justify-content: space-between;
   }
   .justify-center {
     justify-content: center;
+  }
+  .overflow-clip {
+    overflow: clip;
+  }
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  .overflow-x-hidden {
+    overflow-x: hidden;
   }
   .border {
     border-style: var(--tw-border-style);
@@ -615,37 +639,17 @@
   .bg-\[\#1A1A1A\] {
     background-color: #1A1A1A;
   }
-  .bg-\[\#333\] {
-    background-color: #333;
-  }
   .bg-\[\#353535\] {
     background-color: #353535;
   }
-  .bg-\[\#\] {
-    background-color: #;
+  .text-\[100px\] {
+    font-size: 100px;
   }
-  .bg-gray-100 {
-    background-color: var(--color-gray-100);
+  .text-\[370px\] {
+    font-size: 370px;
   }
-  .bg-gray-500 {
-    background-color: var(--color-gray-500);
-  }
-  .px-8 {
-    padding-inline: calc(var(--spacing) * 8);
-  }
-  .text-2xl {
-    font-size: var(--text-2xl);
-    line-height: var(--tw-leading, var(--text-2xl--line-height));
-  }
-  .font-bold {
-    --tw-font-weight: var(--font-weight-bold);
-    font-weight: var(--font-weight-bold);
-  }
-  .text-\[\#F5F5F5\] {
-    color: #F5F5F5;
-  }
-  .text-gray-900 {
-    color: var(--color-gray-900);
+  .whitespace-nowrap {
+    white-space: nowrap;
   }
   .text-white {
     color: var(--color-white);
@@ -684,6 +688,22 @@
     animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
   }
 }
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@keyframes marquee2 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
 @property --tw-rotate-x {
   syntax: "*";
   inherits: false;
@@ -713,10 +733,6 @@
   syntax: "*";
   inherits: false;
   initial-value: solid;
-}
-@property --tw-font-weight {
-  syntax: "*";
-  inherits: false;
 }
 @property --tw-outline-style {
   syntax: "*";
