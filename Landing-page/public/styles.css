@@ -22,15 +22,20 @@
     font-style: italic;
 }
 
-
+.logo{
+    width: 100px;
+    height: 70px;
+    margin-left: 50px;
+    border-radius: 20px;
+} 
 
 nav {
     position: fixed; 
     top: 0;
     width: 100%;
-    height: 140px;
+    height: 100px;
     display: flex;
-    justify-content: flex-end; 
+    justify-content: space-between; 
     align-items: center; 
     padding-right: 50px;
     background-color: rgba(159, 155, 155, 0.8); 
@@ -46,129 +51,19 @@ nav li {
     font-size: 1.5rem;
 }
 
-#about {
-    background-color: black;
-    padding: 40px;
-    background-color: rgb(178, 178, 178); /* Example background color */
-    text-align: center;
-    border-radius: 10px; /* Added rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+footer{
+    width: 100%;
+    height: 10vh;
+    background-color: #7c7c7c;
 }
 
-#about h1 {
-    font-size: 3rem; /* Adjust as needed */
-    margin-bottom: 20px;
-    color: #000000; /* Added color for better visibility */
+.flex{
+    justify-content: space-around;
+    display:flex;
 }
 
-#about p {
-    font-size: 1.5rem; /* Adjust as needed */
-    line-height: 1.6;
-    margin: 10px 0;
-    color: #252424; /* Added color for better readability */
-}
-
-#service {
-    background-image: url('public/Bg.jpeg');
-    background-size: cover; 
-    background-position: center; 
-    padding: 40px;
-    text-align: center;
-
-}
-
-.card-container {
-    margin:20px;
-    display: flex;
-    justify-content: center;
-    gap: 20px; /* Space between cards */
-}
-
-.card {
-    width: 300px;
-    height: 350px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: #d0d0d0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.card h3 {
-    font-size: 1.5rem;
-    margin-bottom: 30px;
-}
-
-.card button {
-    width: 100px;
-    height: 40px;
-    background-color: blue;
-    color: white;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    margin: 0 5px; 
+.flex li{
+    text-decoration: none;
 }
 
 
-
-#contact form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%; 
-}
-
-
-form {
-  background-color: aliceblue;
-  margin: 0 auto;
-  padding-bottom: 2em;
-}
-
-fieldset {
-  border: none;
-  padding: 2rem 0;
-  border-bottom: 3px solid #3b3b4f;
-}
-
-fieldset:last-of-type {
-  border-bottom: none;
-}
-
-label {
-  display: block;
-  margin: 0.5rem 0;
-}
-
-input{
-  margin: 10px 0 0 0;
-  width: 100%;
-  min-height: 2em;
-  background-color: #0a0a23;
-  border: 1px solid #0a0a23;
-  color: #ffffff;
-}
-
-
-
-.inline{
-  width: unset;
-  margin: 0 0.5em 0 0;
-  vertical-align: middle;
-}
-
-input[type="submit"] {
-  display: block;
-  width: 60%;
-  margin: 1em auto;
-  height: 2em;
-  font-size: 1.1rem;
-  background-color: #3b3b4f;
-  border-color: white;
-  min-width: 300px;
-}
-
-input[type="file"] {
-  padding: 1px 2px;
-}

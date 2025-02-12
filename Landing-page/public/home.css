@@ -2,7 +2,7 @@
     background-image: url('Bg.jpeg');
     background-size: cover; 
     background-position: center; 
-    height: 100vh; 
+    height: 90vh; 
     display: flex;
     flex-direction: column; 
     justify-content: center; 
@@ -12,14 +12,21 @@
 
 .hero_section h1 {
     font-size: 4.5rem;
-    margin-bottom: 20px; 
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    color: #9ff2ff;
 }
 
 .hero_section button {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: rgb(247, 247, 247);
+    text-decoration: underline;
+
     width: 200px;
     height:60px;
-    background-color: blue; 
-    color: white; 
+    background-color: rgb(131, 131, 131); 
+ 
     border: none; 
     border-radius: 25px; 
     padding: 10px 20px;
@@ -37,5 +44,9 @@
 .hero_section p {
     font-size: 2.5rem;
     font-weight: 800;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #dfdfdf;
 }
+
+
