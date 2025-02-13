@@ -51,19 +51,54 @@ nav li {
     font-size: 1.5rem;
 }
 
+a::before{
+    color:#000;
+    text-decoration: none;
+}
+
+
+a::after{
+    
+    color:#000;
+    text-decoration: underline;   
+}
+
+a{
+    color:#000;
+    text-decoration: none;
+}
+
+
 footer{
     width: 100%;
     height: 10vh;
     background-color: #7c7c7c;
+
 }
+
+footer li{
+    text-decoration: none;
+    list-style: none;
+}
+
 
 .flex{
     justify-content: space-around;
     display:flex;
 }
 
-.flex li{
-    text-decoration: none;
+.footer-content{
+width: 100%;
+height: 100%;
 }
+
+.footer-content ul{
+    margin: auto 0;
+    height: 100%;
+    justify-content:space-around ;
+    align-items:center;
+}
+
+
 
 

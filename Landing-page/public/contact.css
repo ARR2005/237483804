@@ -5,6 +5,7 @@ body{
 }
 
 .about{
+    margin-top:100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -70,7 +71,7 @@ img{
 
 .card-container {
     display: flex;
-    margin:0px 80px;
+    margin:40px 80px;
     justify-content: space-between;
     gap: 20px;
 }
