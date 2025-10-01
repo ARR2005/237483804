@@ -1,0 +1,49 @@
+<!-- 1. Introduce Yourself
+   Task: Create variables for your name, age, and favorite color. Print them in a sentence (e.g., “Hi, I’m John, I am 20 years old, and my favorite color is blue.”).
+ 
+
+2. Simple Math
+   Task: Store two numbers in variables `$a` and `$b`. Compute and display their sum, difference, product, and quotient.
+ 
+
+3. Area and Perimeter of a Rectangle
+   Task: Use variables `$length` and `$width`. Calculate and display the area and perimeter.
+ 
+
+4. Temperature Converter
+   Task: Store a Celsius temperature in a variable and convert it to Fahrenheit using the formula.
+ 
+
+5. Swapping Variables
+   Task: Assign values to two variables and swap them without directly reassigning values*(use a temporary variable).
+ 
+
+6. Salary Calculator
+   Task: Store `basic_salary`, `allowance`, and `deduction` in variables. Compute and display the net salary.
+ 
+
+7. BMI Calculator
+   Task: Store `weight` (kg) and `height` (m) in variables. Compute BMI using the formula `BMI = weight / (height height)`. Display the result.
+ 
+
+8. String Manipulation
+   Task: Store a sentence in a variable. Display:
+     number of characters (`strlen`)
+     number of words (`str_word_count`)
+     the sentence in uppercase and lowercase.
+ 
+
+9. Bank Account Simulation
+   Task: Create variables for `balance`, `deposit`, and `withdraw`. Update the balance based on transactions and display the result.
+ 
+
+10. Simple Grading System
+   Task: Store scores for Math, English, and Science in variables. Compute the average and display the grade based on conditions (e.g., >=90 = A, >=80 = B, etc.).
+ 
+
+11. Currency Converter
+   Task: Store an amount in PHP and convert it to USD, EUR, or JPY using variables for exchange rates.
+ 
+
+12. Travel Cost Estimator
+   Task: Use variables for `distance`, `fuel_consumption` (km per liter), and `fuel_price`. Compute and display the estimated travel cost. -->
