@@ -11,7 +11,7 @@
             <li><a href="intro.php">1.Introduce Yourself</a></li>
             <li><a href="math.php">2.Simple Math</a></li>
             <li><a href="area.php">3.Area and Peremiter of a rectangle</a></li>
-            <li><a href="tempconv.php">4.Temper Converter</a></li>
+            <li><a href="tempconv.php">4.Temperature Converter</a></li>
             <li><a href="swapvar.php">5.Swapping Variables</a></li>
             <li><a href="salary.php">6.Salary Calculator</a></li>
             <li><a href="bmi.php">7.BMI Calculator</a></li>
