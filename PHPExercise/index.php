@@ -4,6 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="widt, initial-scale=1.0">
     <title>PHP Exercise</title>
+    <style>
+        li{
+            list-style: none;
+        }
+        a, a::after , a::before{
+            color:black;
+            text-decoration: none;
+        }
+        nav{ 
+            display: flex;
+        }
+
+    </style>
 </head>
 <body>
     <nav>
@@ -23,14 +36,7 @@
         </ul>
     </nav>
     <div class="hero">
-
     </div>
-
-
-
-
-
-
 </body>
 </html>
 
